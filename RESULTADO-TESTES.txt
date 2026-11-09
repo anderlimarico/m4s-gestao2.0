@@ -1,0 +1,94 @@
+OK 1 Rejeita número vazio
+OK 2 Rejeita número negativo
+OK 3 Rejeita texto numérico inválido
+OK 4 Rejeita quantidade fracionária
+OK 5 Aceita decimal brasileiro
+OK 6 Rejeita data inexistente
+OK 7 Mudança de mês na previsão
+OK 8 Quatro contas iniciais
+OK 9 Validação de estado inicial
+OK 10 SKU duplicado bloqueado
+OK 11 Kit não pode apontar a kit
+OK 12 Etapa não pula corte
+OK 13 Produção acumulativa e perdas
+OK 14 Só etapa quatro entra em pronta interna
+OK 15 Envio kit 3 desconta 30 peças
+OK 16 Envio dividido preserva origens
+OK 17 Bloqueia envio insuficiente
+OK 18 Bloqueia soma de origens divergente
+OK 19 Costureira desconta cortadas e insumos
+OK 20 Recebimento parcial e preço histórico
+OK 21 Recebimento duplicado bloqueado
+OK 22 Futuro interno não cria estoque sem etapa anterior
+OK 23 Estorno preserva histórico
+OK 24 Estorno bloqueia dependência posterior
+OK 25 Full média ponderada e arredondamento
+OK 26 Full sem vendas sem divisão por zero
+OK 27 Vendas inconsistentes rejeitadas
+OK 28 Corte não duplica demanda comercial e plano
+OK 29 Futuro externo reduz demanda a cortar
+OK 30 Margem e preço mínimo conferem
+OK 31 Preço mínimo inviável retorna null
+OK 32 Backup JSON corrompido rejeitado
+OK 33 Backup não identificado rejeitado
+OK 34 Backup válido pode ser restaurado
+OK 35 Saldo adulterado no backup rejeitado
+OK 36 Falha transacional não altera memória
+OK 37 Falha ao persistir preserva memória
+OK 38 Conflito entre abas bloqueado
+OK 39 Escapa HTML injetado
+OK 40 Futuro interno é atendido pela etapa final sem duplicar
+OK 41 Estorno final reabre meta interna
+OK 42 Excedente externo exige motivo
+OK 43 Excedente conferido gera saldo e pagamento reais
+OK 44 Metas internas e planos externos são somados
+OK 45 Telefone com DDI é normalizado
+OK 46 Telefone inválido é rejeitado
+OK 47 Relatório vazio omite seções sem dados
+OK 48 Relatório filtra produção por período
+OK 49 Partes de WhatsApp preservam texto e limite
+OK 50 Backup com relatório inválido é rejeitado
+OK 51 Preferência de backup fora das opções é rejeitada
+OK 52 Calendário 15 e 30 em mês de 31 dias
+OK 53 Dia 30 em fevereiro vai ao último dia
+OK 54 Dia 31 e último dia não duplicam ciclo
+OK 55 Fevereiro bissexto tem dia 29
+OK 56 Sábado manter
+OK 57 Sábado sexta anterior
+OK 58 Sábado segunda seguinte
+OK 59 Domingo sexta anterior
+OK 60 Domingo segunda seguinte
+OK 61 Confirmação no dia do ciclo entra nele
+OK 62 Confirmação após dia 15 entra no dia 30
+OK 63 Preço muda no meio do ciclo e fica congelado
+OK 64 Previstos não entram no valor confirmado
+OK 65 Desconto com motivo reduz o ciclo
+OK 66 Desconto maior que saldo bloqueado
+OK 67 Ajuste sem motivo bloqueado
+OK 68 Baixa cria evento e exclui peças do saldo a pagar
+OK 69 Fechamento antecipado manda nova confirmação ao próximo
+OK 70 Não permite pagamento antes da confirmação
+OK 71 Pagamento duplicado bloqueado
+OK 72 Desfazer pagamento reabre as mesmas peças
+OK 73 Permite nova baixa após estorno sem duplicar valor
+OK 74 Calendário editado reagenda só valores em aberto
+OK 75 Calendário editado preserva baixas feitas
+OK 76 Pendente de pagamento atrasado é vermelho
+OK 77 Pagamento em dois dias é atenção
+OK 78 Mesmo item de entrega espelha módulos sem duplicar ID
+OK 79 Selo zero não tem pendências
+OK 80 Selo acima de 99 mostra 99+
+OK 81 Selo vermelho prevalece sobre atenção
+OK 82 Backup vencido usa exclamação e não pode ser ocultado
+OK 83 Pagamento some dos alertas após baixa
+OK 84 Resumo de pagamento não tem tabelas ou markdown duplo
+OK 85 Backup rejeita pagamento adulterado
+OK 86 Valor com centavos soma sem divergência
+OK 87 Importação migra baixa antiga e permite estorno
+OK 88 Revalidar backup não duplica baixa legada
+OK 89 Relatório geral usa a camada única de pagamentos
+OK 90 Confirmação física com data futura é bloqueada
+OK 91 Pagamento do fornecedor cria evento único de saldo
+OK 92 Registro nulo no backup tem erro em português
+
+ENTREGA FINAL 2.1: 92 testes passaram.
